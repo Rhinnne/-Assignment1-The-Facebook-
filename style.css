@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 1px solid red;
+    width: 1200px;
+    margin: auto;
+    height: 800px;
+}
+
+header {
+    border: 1px solid red;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C5997;
+}
+
+header img {
+    margin-left: 200px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#header-input {
+    display:flex;
+    color: azure;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+header input {
+    width: 120px;
+    height: 23px;
+}
+
+#header-input-left {
+    margin-right: 10px;
+}
+
+header button {
+    width: 50px;
+    height: 26px;
+    margin-top: 48px;
+    margin-right: 300px;
+    margin-left: 10px;
+    color:aliceblue;
+    background-color: #4d628f;
+}
+
+#main-container {
+    width: 1200px;
+    height: 585px;
+    background: linear-gradient(to top, #b5c7ed, #f8f8f9);
+    display: flex;
+    margin: auto;
+}
+
+#main-container-left {
+    border: 1px solid green;
+    width: 400px;
+    height: 550px;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+#main-container-left p {
+    color: #2d4474;
+    font-weight: bold;
+}
+
+#main-container-left img {
+    width: 400px;
+    margin-top: 25px;
+}
+
+#main-container-right {
+    border: 1px solid blue;
+    margin-top: 35px;
+    width: 350px;
+    margin-left: 30px;
+    color: #2d4474;
+    height: 550px;
+}
+
+#main-container-right h4 {
+    color: #2d4474;
+    font-weight: bold;
+}
+
+#main-container-right-input {
+    display:flex;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.input-margin {
+    margin-bottom: 7px;
+    height: 25px;
+}
+
+#main-container-right-input p {
+    width: 100px;
+    text-align: right;
+    margin-left: 20px;
+}
+
+#main-container-right-input input {
+    display:flex;
+    align-content: center;
+    height: 20px;
+    width: 220px;
+    margin-left: 5px;
+}
+
+#main-container-right-select {
+    margin-left: 20px;
+    display:flex;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#main-container-right-select p {
+    width: 100px;
+    text-align: right;
+}
+
+#agreement {
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+#agreement button {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(112, 169, 26);
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#agreement-p2 {
+    color: black;
+    margin-top: 15px;
+}
+
+#main-container-right-buttom {
+    color: black;
+    text-align: center;
+}
+
+footer {
+    width: 800px;
+    margin:auto;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+#footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-copyright {
+    width: 300px;
+}
+
+#footer-contact {
+    width: 550px;
+}
